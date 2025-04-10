@@ -1,0 +1,18 @@
+Music Project - explicando o projeto de acordo com o meu entendimento!
+
+
+Para que serve cada arquivo do arquivo:
+
+controller   /   musica   /   controllerMusica.js 	-> 
+modulo       /				config.js 	-> está os STATUS CODE, tanto os de erros, quanto o de sucesso
+
+model 	     /     DAO    / 		musica.js 	-> realiza o CRUD de dados da tabela de música no Banco de dados
+					   app.js 	-> se encontra os Endpoint's da API (Get, Post, Put e Delete)
+
+
+
+/************************************************************************************************
+
+
+
+************************************************************************************************/

@@ -1,0 +1,92 @@
+/************
+ * //Validação de entrda de dados vazio
+                        if(primValor == '' || segValor == '' || opMat == ''){
+                            console.log('ERRO: É obrigatório preencher todas as entradas.')
+
+
+}else{
+                            //Validação de entrada de caractéres inválidos
+                            if(isNaN(valor1) || isNaN(valor2){
+                                console.log('ERRO: é obrigatório a entrada apenas com números.')
+
+
+console.log('ERRO: é obrigatório a entrada apenas com números.')
+
+
+
+            //Validação de entrda de dados vazio
+            if(primValor == '' || segValor == '' || opMat == ''){
+                console.log('ERRO: é obrigatório preencher todas as entradas!')
+
+            }else{
+                //Validação de entrada de caractéres inválidos
+                if(isNaN(valor1) || isNaN(valor2)){
+                    console.log('ERRO: é obrigatório preencher apenas com números!')
+
+
+                    
+
+                }
+                
+            }
+
+**********************************/
+/*
+ //Cria uma variável local dentro da função
+ let primValor = parseFloat(valor1.replace(',' , '.'))
+
+ entradaDeDados.question('Insira o 2º número: ', function(valor2){
+     //Cria uma variável local dentro da função
+     let segValor = parseFloat(valor2.replace(',' , '.'))
+
+     let soma
+     let subtracao
+     let multiplicacao
+     let divisao
+
+     if(primValor == '' || segValor == '' || opMat == ''){
+         console.log('ERRO: é obrigatório preencher todas as entradas!')
+
+         }else{
+             //Validação de entrada de caractéres inválidos
+             if(isNaN(valor1) || isNaN(valor2)){
+             console.log('ERRO: é obrigatório preencher apenas com números!')
+             }
+         }
+
+         entradaDeDados.question('Qual operação matemática deseja realizar: SOMA, SUBTRAÇÃO, MULTIPLICAÇÃO ou DIVISÃO? ', function(operation){
+         //Cria uma variável local dentro da função
+         let opMat = operation
+         if(opMat !== '+' && opMat !== '-' && opMat !== '*' && opMat !== '/'){
+             console.log('ERRO: escolha uma opção de operação para prosseguir!')
+         }else{
+             if(opMat === '+'){
+                 soma = Number(valor1) + Number(valor2)
+                 console.log(`O resultado da operação solicitada é ${soma.toFixed(2)}`)
+             }else{
+                 if(opMat === '-'){
+                     subtracao = Number(valor1) - Number(valor2)
+                     console.log(`O resultado da operação solicitada é ${subtracao.toFixed(2)}`)
+                 }else{
+                     if(opMat === '*'){
+                         multiplicacao = Number(valor1) * Number(valor2)
+                         console.log(`O resultado da operação solicitada é ${multiplicacao.toFixed(2)}`)
+                 }else{
+                     if(opMat === '/'){
+                         if(Number(valor1) == 0 || Number(valor2) == 0){
+                             console.log('ERRO: NÃO é possível realizar divisão por 0!')
+
+                         }else{
+                             divisao = Number(valor1) / Number(valor2)
+                         console.log(`O resultado da operação solicitada é ${divisao.toFixed(2)}`)
+                                     //Validação de entrda de dados vazio
+                             
+                         }
+                     }
+                 }
+             }entradaDeDados.close()
+         }
+     }
+ })
+
+ *************/

@@ -1,0 +1,24 @@
+var calculos = require('./modulo/funcoes')
+var readline = require('readline')
+
+var entradaDeDados = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+})
+
+entradaDeDados.question('Digite o peso: ', function(peso){
+    let pesoPessoa = peso
+
+    entradaDeDados.question('Digite a altura: ', function(altura){
+        let alturaPessoa = altura
+
+        if(calculos.validarDados){
+            console.log('ERRO! Tente novamente.')
+        }else{
+            IMC = calculos.calcularIMC(pesoPessoa, alturaPessoa)
+            STATUS = calculos.statusIMC(IMC)
+            console.log(`IMC = ${IMC}, ${STATUS}`)
+        }
+
+    })
+})

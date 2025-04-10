@@ -1,0 +1,36 @@
+/*entrada de dados: peso e altura
+calcular o IMC: peso / altura * altura
+devolver os dados processados (Utiliza operadores de comparação e operadores lógicos.): 
+    imc < 18,5 = 'Abaixo do peso'
+    imc == 18,5 && == 24,9 = 'Peso Normal'
+    imc == 25 && == 29,9 = 'Acima do peso (sobrepeso)'
+    imc == 30 && == 34,9 = 'Obesidade I'
+    imc == 35 && == 39,9 = 'Obesidade II'
+    imc > 40 = 'Obesidade III'
+
+peso / (altura * altura)
+peso / (altura^2)
+
+
+function calcularIMC (valorPeso, valorAltura){
+    let peso = valorPeso
+    let altura = valorAltura
+    let resultado
+
+
+
+
+    //let resultado
+
+
+imc = valorimc
+
+return resultado
+
+    if(validarDados(peso, altura)){
+        imc = peso / altura^2
+    }
+}
+*/
+console.log(statusIMC(18.74))
+console.log(statusIMC(18.74))

@@ -1,0 +1,17 @@
+Tabelas que NÃO recebe chave estrangeira:
+
+	- estilo musical	(tbl_estilo_musical)
+	- tipo do álbum		(tbl_tipo_album)
+
+	- endereço?		(tbl_endereco)
+	- usuário		(tbl_usuario)
+	- nacionalidade 	(tbl_nacionalidade)
+
+Tabelas que se relacionam de 1 X N:
+	...
+	...
+	...
+
+Tabelas que se relacionam de N X N:
+	musica - estiloMusical
+

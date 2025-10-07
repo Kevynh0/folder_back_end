@@ -111,6 +111,6 @@ app.put('/v1/controle-musicas/musica/:id', cors(), bodyParserJSON, async functio
     response.json(resultMusica)
 })
 
-app.listen(8080, function(){
+app.listen(7070, function(){
     console.log('API aguardando requisições...')
 })
